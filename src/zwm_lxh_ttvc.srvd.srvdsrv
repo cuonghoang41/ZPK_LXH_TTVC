@@ -1,0 +1,4 @@
+@EndUserText.label: 'Service definition for Delivery Information'
+define service ZWM_LXH_TTVC {
+  expose ZWM_LXH_TTVC;
+}

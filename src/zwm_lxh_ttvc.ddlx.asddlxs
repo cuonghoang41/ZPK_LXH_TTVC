@@ -1,0 +1,56 @@
+@Metadata.layer: #CORE
+@UI: {
+  headerInfo: { typeName: 'Delivery Information',
+                typeNamePlural: 'Delivery Information',
+                title: { type: #STANDARD, label: 'Delivery Information', value: '' } } }
+annotate entity ZWM_LXH_TTVC
+    with
+{
+    @UI.facet: [
+  {
+    id: 'Delivery_Information',
+    purpose: #STANDARD,
+    type: #IDENTIFICATION_REFERENCE,
+    label: 'Delivery Information',
+    position: 10
+  }]
+          @UI: {lineItem: [ { position: 10, label: 'Material Document Year' } ],
+            identification: [ { position: 10, label: 'Material Document Year' } ],
+              selectionField: [ { position: 20 } ] }
+          @EndUserText.label: 'Material Document Year'
+          Mjahr;
+          @UI: {lineItem: [ { position: 20, label: 'Material Documents' } ],
+            identification: [ { position: 20, label: 'Material Documents' } ],
+              selectionField: [ { position: 30 } ] }
+          @EndUserText.label: 'Material Documents'
+          Mblnr;
+          @UI: {lineItem: [ { position: 30, label: 'Họ và tên người vận chuyển' } ],
+            identification: [ { position: 30, label: 'Họ và tên người vận chuyển' } ] }
+          @EndUserText.label: 'Họ và tên người vận chuyển'
+          DeliveryName;
+           @UI: {lineItem: [ { position: 40, label: 'Phương tiện vận chuyển' } ],
+            identification: [ { position: 40, label: 'Phương tiện vận chuyển' } ] }
+          @EndUserText.label: 'Phương tiện vận chuyển'
+          DeliveryTransport;
+           @UI: {lineItem: [ { position: 50, label: 'Số hợp đồng vận chuyển' } ],
+            identification: [ { position: 50, label: 'Số hợp đồng vận chuyển' } ] }
+          @EndUserText.label: 'Số hợp đồng vận chuyển'
+          DeliveryContractNo;
+           @UI: {lineItem: [ { position: 60, label: 'Số xe' } ],
+            identification: [ { position: 60, label: 'Số xe' } ] }
+          @EndUserText.label: 'Số xe'
+          TransportNo;
+          @UI: {lineItem: [ { position: 60, label: 'Số cont' } ],
+            identification: [ { position: 60, label: 'Số cont' } ] }
+          @EndUserText.label: 'Số cont'
+          ContNo;
+          @UI: {lineItem: [ { position: 60, label: 'Số Seal' } ],
+            identification: [ { position: 60, label: 'Số Seal' } ] }
+          @EndUserText.label: 'Số Seal'
+          SealNo;
+          @UI: {lineItem: [ { position: 70, label: 'Không xuất PXKKVCNB' } ],
+            identification: [ { position: 70, label: 'Không xuất PXKKVCNB' } ] }
+          @EndUserText.label: 'Không xuất PXKKVCNB'
+          NoPXKKVCNB;
+          
+}

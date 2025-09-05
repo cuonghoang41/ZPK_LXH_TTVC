@@ -1,0 +1,13 @@
+managed implementation in class zbp_wm_lxh_ttvc unique;
+strict ( 2 );
+
+define behavior for ZWM_LXH_TTVC //alias <alias_name>
+persistent table ztb_lxh_ttvc
+lock master
+authorization master ( instance )
+//etag master <field_name>
+{
+  create;
+  update;
+  delete;
+}

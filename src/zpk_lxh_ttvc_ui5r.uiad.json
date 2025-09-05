@@ -1,0 +1,35 @@
+{
+  "formatVersion": "2",
+  "header": {
+    "description": "Delivery Information",
+    "originalLanguage": "en",
+    "abapLanguageVersion": "cloudDevelopment"
+  },
+  "generalInformation": {
+    "appType": "ui5",
+    "catalogId": "SAP_TC_UI5_REPO_UIAD",
+    "targetMappingTitle": "Delivery Information"
+  },
+  "ui5AppDetails": {
+    "appId": "zwmlxhttvc"
+  },
+  "navigation": {
+    "targetMappingId": "UI5R_24966FE50577C4DBE448E22B9C410EACA1B10DA1_TM",
+    "semanticObject": "zwm",
+    "action": "report",
+    "desktop": true,
+    "tablet": true,
+    "phone": true
+  },
+  "tiles": [
+    {
+      "id": "UI5R_24966FE50577C4DBE448E22B9C410EACA1B10DA1_AL",
+      "tileType": "static",
+      "isDefault": true,
+      "standard": {
+        "title": "Delivery Information",
+        "subtitle": "ZWM"
+      }
+    }
+  ]
+}
